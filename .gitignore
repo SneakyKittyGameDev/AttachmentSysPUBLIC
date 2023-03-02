@@ -1,6 +1,10 @@
 # Visual Studio 2015 user specific files
 .vs/
 
+# Attachment Plugin
+Plugins/
+.idea/
+
 # Compiled Object files
 *.slo
 *.lo
