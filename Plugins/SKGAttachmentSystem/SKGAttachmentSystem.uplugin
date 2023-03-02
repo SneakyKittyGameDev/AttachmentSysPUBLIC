@@ -1,0 +1,27 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"FriendlyName": "SKG Attachment System",
+	"Description": "Generic Attachment System",
+	"Category": "Code Plugins",
+	"CreatedBy": "Sneaky Kitty Game Dev",
+	"CreatedByURL": "https://www.youtube.com/channel/UCYcDJPGvIUFxBTmXOZWFswQ",
+	"DocsURL": "https://www.youtube.com/playlist?list=PLnHeglBaPYu9NBH3G9LT8v-4o6qe31xSg",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/4b5e0a481acc46b2ae938d36a58c0ad4",
+	"SupportURL": "https://discord.gg/W5g6pZXfjh",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "SKGAttachment",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "SKGAttachmentEditor",
+			"Type": "UncookedOnly",
+			"LoadingPhase": "PostEngineInit"
+		}
+	]
+}
